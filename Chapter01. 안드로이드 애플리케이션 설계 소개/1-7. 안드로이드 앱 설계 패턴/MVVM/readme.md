@@ -1,0 +1,12 @@
+- MVVM 디자인 패턴
+	- MVP는 뷰와 프레젠터가 강하게 결합되어 있다는 문제점이 있다.
+	- MVVM는 dataBinding, LiveData 등을 이용하여 의존성을 끊는데 집중한다.
+	- 프레젠터대신 ViewModel이라는 이름을 사용한다
+	
+- ViewModel
+	- View에 표현할 데이터를 Observable 타입으로 관리한다
+	- View는 ViewModel에 데이터를 구독 요청하여 화면에 나타낸다.
+	- 따라서 ViewModel과 View는 1대N의 관계이다
+	- ViewModel이 View에 대한 의존성을 갖지 않도록 DataBinding 라이브러리가 사용된다
+	- 생명주기 또는 사용자와의 상호작용을 통해 ViewModel은 Model에 데이터를 요청한다.
+	- Model로부터 받은 데이터를 가공하여 Observable한 타입의 형태로 뷰모델에 저장한다
