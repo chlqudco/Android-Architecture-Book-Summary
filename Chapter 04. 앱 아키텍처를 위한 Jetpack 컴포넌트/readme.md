@@ -1,0 +1,16 @@
+- 도입
+	- Jetpack 컴포넌트는 생산성을 높여 개발할 수 있게 돕는 라이브러리, 도구, 가이드의 모음이다.
+	- Jetpack은 androidx.* 패키지 라이브러리로 제공된다.
+	- 크게 Foundation, Architecture, Behavior, User Interface 카테고리로 분류된다.
+	- 이 책에서는 아키텍쳐에 대해서만 다룰꺼임!
+
+- Jetpack Architecture
+	- 다음과 같은 라이브러리들이 속한다
+	- Data Binding
+	- LifeCycles
+	- LiveData
+	- Navigatio
+	- Paging
+	- Room
+	- ViewModel
+	- WorkManager
